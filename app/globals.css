@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-brand: okch(65% 0.15 250); /* Example brand color */
+  --font-heading: var(--font-geist-sans), ui-sans-serif, system-ui; /* Using Geist Sans as default */
+}
+
+/* Custom Utilities if needed */
+@utility container {
+  margin-inline: auto;
+  padding-inline: 1.5rem;
+  max-width: 1280px;
+}
