@@ -49,7 +49,7 @@ export default function Home() {
               A Sanctuary of <br /><span className="italic text-primary">Royal Hospitality</span>
             </h2>
             <p className="text-lg text-base-content/70 leading-relaxed">
-              Nestled just moments away from the shimmering waters of Lake Pichola, Siyaahi Boutique Stay isn't just a hotel—it's a journey into the opulent past of Mewar. Born from a restored ancestral Haveli, every stone and carving tells a whisper of history.
+              Nestled just moments away from the shimmering waters of Lake Pichola, Siyaahi Boutique Stay isn&apos;t just a hotel—it&apos;s a journey into the opulent past of Mewar. Born from a restored ancestral Haveli, every stone and carving tells a whisper of history.
             </p>
             <p className="text-lg text-base-content/70 leading-relaxed">
               We invite you to slow down and savor the art of fine living. Whether basking in the golden sun of our courtyards or dining under a canopy of stars, your stay with us is crafted to be an unforgettable memory.
@@ -126,7 +126,7 @@ export default function Home() {
                       className="object-cover transition-transform duration-700 group-hover:scale-110"
                     />
                     <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors" />
-                    <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-1 rounded-full text-sm font-bold shadow-sm">
+                    <div className="absolute bottom-4 right-4 bg-white/90 backdrop-blur px-4 py-1 rounded-full text-sm font-bold shadow-sm text-black">
                       ₹{room.price} <span className="font-normal text-xs text-gray-600">/ night</span>
                     </div>
                   </div>
@@ -165,7 +165,7 @@ export default function Home() {
                 <div className="flex gap-1 mb-4 justify-center text-yellow-400">
                   {[...Array(5)].map((_, i) => <Star key={i} className="w-4 h-4 fill-current" />)}
                 </div>
-                <p className="text-lg italic mb-6">"{review.text}"</p>
+                <p className="text-lg italic mb-6">&quot;{review.text}&quot;</p>
                 <div>
                   <div className="font-bold text-lg">{review.name}</div>
                   <div className="text-sm opacity-70">{review.location}</div>
