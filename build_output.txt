@@ -1,0 +1,107 @@
+﻿
+> siyaahi-boutique@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.1-canary.29 (Turbopack)
+
+  Creating an optimized production build ...
+/*! ≡ƒî╝ daisyUI 5.5.14 */
+node.exe : Found 1 
+warning while 
+optimizing generated 
+CSS:
+At line:1 char:1
++ & "C:\Program Files
+\nodejs/node.exe" 
+"C:\Program 
+Files\nodejs/node_mo 
+...
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~
+    + CategoryInfo   
+           : 
+NotSpecified: (F    
+ound 1 warning... 
+gen    erated 
+CSS::String) [    ], 
+RemoteException
+    + 
+FullyQualifiedError  
+  Id : 
+NativeCommandErr    
+or
+ 
+
+[2mΓöé }[22m
+[2mΓöé @layer base 
+{[22m
+[2mΓöé[22m   
+@property 
+--radialprogress {
+[2mΓöå[22m         
+   [33m[2m^--[22m 
+Unknown at rule: 
+@property[39m
+[2mΓöå[22m
+[2mΓöé     syntax: 
+"<percentage>";[22m
+[2mΓöé     
+inherits: true;[22m
+
+Γ£ô Compiled successfully in 3.0s
+  Running TypeScript ...
+Failed to compile.
+
+.next/dev/types/valid
+ator.ts:5:56
+Type error: Cannot 
+find module 
+'./routes.js' or its 
+corresponding type 
+declarations.
+
+[0m [90m 3 |[39m 
+[90m// This file 
+validates that all 
+pages and layouts 
+export the correct 
+types[39m
+ [90m 4 |[39m
+[31m[1m>[22m[39m
+[90m 5 |[39m 
+[36mimport[39m 
+type { [33mAppRoutes
+[39m[33m,[39m [33
+mLayoutRoutes[39m[3
+3m,[39m 
+[33mParamMap[39m } 
+[36mfrom[39m [32m"
+./routes.js"[39m
+ [90m   |[39m      
+                     
+                     
+        
+[31m[1m^[22m[39m
+ [90m 6 |[39m 
+[36mimport[39m 
+type { [33mResolving
+Metadata[39m[33m,[
+39m [33mResolvingVie
+wport[39m } 
+[36mfrom[39m [32m"
+next/types.js"[39m
+ [90m 7 |[39m
+ [90m 8 |[39m type 
+[33mAppPageConfig[3
+9m[33m<[39m[33mRou
+te[39m 
+[36mextends[39m 
+[33mAppRoutes[39m 
+[33m=[39m [33mAppR
+outes[39m[33m>[39m
+ [33m=[39m {[0m
+Next.js build worker 
+exited with code: 1 
+and signal: null

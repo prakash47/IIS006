@@ -1,13 +1,25 @@
-import { MetadataRoute } from 'next';
-import { SITE_CONFIG } from '@/lib/constants';
+import { MetadataRoute } from "next";
 
 export default function robots(): MetadataRoute.Robots {
+    const baseUrl = "https://siyaahi-boutique.com";
+
     return {
-        rules: {
-            userAgent: '*',
-            allow: '/',
-            disallow: '/private/',
-        },
-        sitemap: `${SITE_CONFIG.url}/sitemap.xml`,
+        rules: [
+            {
+                userAgent: "*",
+                allow: "/",
+                disallow: ["/api/", "/_next/", "/admin/"],
+            },
+            {
+                userAgent: "Googlebot",
+                allow: "/",
+            },
+            {
+                userAgent: "Googlebot-Image",
+                allow: "/images/",
+            },
+        ],
+        sitemap: `${baseUrl}/sitemap.xml`,
+        host: baseUrl,
     };
 }
